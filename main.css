@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  border-radius: 8px;
+  width: 550px;
+  height: 400px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+  }
+}
+.container .image {
+  width: 45%;
+  height: 100%;
+  background-image: url("./imgs/image-product-desktop.jpg");
+  background-size: cover;
+  border-radius: 8px;
+}
+@media (max-width: 600px) {
+  .container .image {
+    width: 100%;
+    height: 42%;
+    background-image: url("./imgs//image-product-mobile.jpg");
+  }
+}
+.container .info {
+  flex: 1;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+@media (max-width: 600px) {
+  .container .info {
+    width: 100%;
+    padding-top: 40px;
+  }
+}
+.container .info .brand {
+  color: #ddd;
+  font-weight: bold;
+  letter-spacing: 8px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.container .info .title {
+  font-size: 42px;
+  line-height: 1;
+  font-family: serif;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .container .info .title {
+    font-size: 33px;
+    margin-bottom: 10px;
+  }
+}
+.container .info .text {
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 10px;
+}
+.container .info .price span {
+  margin-right: 20px;
+}
+.container .info .price .new-price {
+  color: #4caf50;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: serif;
+}
+.container .info .price .old-price {
+  color: #ddd;
+  font-weight: bold;
+  font-size: 20px;
+}
+.container .info .add-to-cart {
+  border: none;
+  padding: 10px 85px;
+  color: white;
+  background-color: #4caf50;
+  border-radius: 8px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container .info .add-to-cart:hover {
+  background-color: #38853b;
+}
+@media (max-width: 600px) {
+  .container .info .add-to-cart {
+    padding: 10px 100px;
+    margin-top: 10px;
+  }
+}
