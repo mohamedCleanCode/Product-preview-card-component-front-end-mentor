@@ -2,7 +2,8 @@
 
 Product-preview-card-component-front-end-mentor-newbie-1
 
-## Site: https://mohamedcleancode.github.io/Product-preview-card-component-front-end-mentor/
+## Site: 
+https://mohamedcleancode.github.io/Product-preview-card-component-front-end-mentor/
 
 ## Features
 
