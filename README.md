@@ -4,8 +4,11 @@ Product-preview-card-component-front-end-mentor-newbie-1
 
 This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.
 
-## Site: 
+## Demo: 
 https://mohamedcleancode.github.io/Product-preview-card-component-front-end-mentor/
+
+## Challenge:
+https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa
 
 ## Features
 
